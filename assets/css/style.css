@@ -23,11 +23,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  padding-right: 350px;
 }
 .text {
   text-align: center;
   font-size: 28px;
-  padding-right: 350px;
 }
 .margin {
   margin: 0px;
