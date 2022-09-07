@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+  padding-bottom: 8px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+  font-size: 28px;
+  padding-right: 350px;
+}
+.margin {
+  margin: 0px;
+}
+.padding {
+  padding-bottom: 30px;
+}
+.size-img {
+  --size: 70px;
+  width: var(--size);
+  height: var(--size);
+  object-fit: cover;
+  border-radius: 50%;
+  border: ridge #fff;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.pd-card {
+  margin-left: 48px;
+}
+.pd-text {
+  padding-left: 16px;
+  font-size: 22px;
+}
+.v-line {
+  border-right: solid #9a9a9a;
+  height: 100%;
+  right: 50%;
+}
+.active {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.color {
+  color: #9a9a9a;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 50px;
+}
+.btn-color {
+  color: white;
+  background-color: #b2a1d9;
+  font-size: 25px;
+  width: 250px;
+  height: 60px;
+  border-radius: 0.4rem;
+}
+.icons {
+  padding-left: 80px;
+  padding-right: 40px;
+}
+.pd-icons {
+  padding-left: 16px;
+  color: #9a9a9a;
+}
